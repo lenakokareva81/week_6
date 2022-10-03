@@ -1,0 +1,203 @@
+.header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit), minmax(702px, 1fr);
+    grid-template-rows: min(702px);
+}
+
+
+.header__text {
+    grid-column: 1 / 2;
+    width: 702px;
+    padding-left: 90px;
+    padding-top: 32px;
+
+
+}
+
+.header__text_logo {}
+
+.header__text_logo_img {
+    height: 40px;
+}
+
+.header__text_logo_a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #485B60;
+}
+
+.header__text_h2 {
+    padding-left: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.header__text_h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 2.88px;
+    padding-left: 60px;
+}
+
+.header__text_p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 32px;
+    padding-left: 60px;
+}
+
+.header__img {
+    grid-column: 2 / 3;
+    padding-right: 190px;
+}
+
+.header__text_a {
+    background-color: #26534C;
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 60px;
+    padding: 13px 30px;
+}
+
+a.header__text_a:hover {
+    background-color: #2715af;
+}
+
+.header__img_img {
+    width: 702px;
+    height: 700px;
+}
+
+.logo {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-rows: min(120px);
+    padding-left: 60px;
+}
+
+.logo_img {
+    height: 80px;
+    width: 180px;
+    padding: 20px;
+}
+
+.article1 {
+    border: 1px solid salmon;
+    display: grid;
+    padding-left: 225px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    grid-template-rows: min(270px) minmax(390px, auto) minmax(390px, auto) min(270px, auto) min(690px, auto) min(690px, auto);
+}
+
+
+.karta {
+    display: grid;
+    width: 425px;
+    height: 320px;
+    padding-top: 41px;
+    padding-left: 44px;
+    padding-right: 70px;
+    border: 1px solid #DDE3E4;
+    background-image: url("img/article1_karta_bgimg.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin: 35px;
+}
+
+.karta_p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 11px;
+    line-height: 32px;
+    letter-spacing: 0.32px;
+    color: #485B60;
+}
+
+.karta_h4 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 23px;
+    line-height: 32px;
+    color: #102226;
+}
+
+.karta_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    color: #102226;
+    text-decoration: none;
+}
+
+.heading {
+    padding-left: 35px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background-image: url("img/article1_heading_bgimg.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 425px;
+    height: 168px;
+}
+
+.whidth504 {
+    width: 504px;
+}
+
+.heading_h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    color: #102226;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-self: center;
+    flex-wrap: wrap;
+    border: 1px solid #1C3F3A;
+}
+
+.article-picture {
+    Width: 550px;
+    Height: 688px;
+    padding: 20px;
+}
+.button{ background-color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #1C3F3A;
+    border: 1px solid #1C3F3A;
+    margin: auto;
+    padding: 13px 30px;
+    height: 32px;
+}
