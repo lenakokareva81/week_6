@@ -15,7 +15,6 @@
 
 }
 
-.header__text_logo {}
 
 .header__text_logo_img {
     height: 40px;
@@ -97,7 +96,6 @@ a.header__text_a:hover {
 }
 
 .article1 {
-    border: 1px solid salmon;
     display: grid;
     padding-left: 225px;
     padding-top: 100px;
@@ -180,7 +178,7 @@ a.header__text_a:hover {
     width: 100vw;
     justify-self: center;
     flex-wrap: wrap;
-    border: 1px solid #1C3F3A;
+   
 }
 
 .article-picture {
